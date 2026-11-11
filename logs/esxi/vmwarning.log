@@ -1,0 +1,9 @@
+2023-05-31T18:18:12.733Z Wa(180) vmkwarning: cpu29:2097519)WARNING: NvmeDiscover: 1914: Failed to get valid NS for controller.
+
+2023-05-31T18:23:12.400Z Wa(180) vmkwarning: cpu10:2099456)WARNING: NMP: Device naa.6000... path is degraded.
+
+2023-05-31T18:24:15.300Z Wa(180) vmkwarning: cpu18:2099567)WARNING: StorageDevice: High latency detected on device naa.6000...
+
+2023-05-31T18:25:30.500Z Wa(180) vmkwarning: cpu21:2099678)WARNING: VMFS: Datastore datastore1 approaching capacity threshold.
+
+2023-05-31T18:26:45.200Z Wa(180) vmkwarning: cpu14:2099789)WARNING: Network connectivity interruption detected on vmnic1.

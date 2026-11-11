@@ -1,0 +1,98 @@
+{
+    "agent": "RPA_Agent",
+    "total_actions_identified": 9,
+    "actions_requiring_approval": 9,
+    "execution_mode": "SIMULATION_ONLY",
+    "remediation_actions": [
+        {
+            "resource_name": "PROD-VM-101",
+            "issue": "Potential CPU overallocation",
+            "resource_type": "CPU",
+            "automation_action": "REVIEW_CPU_ALLOCATION",
+            "description": "Review VM CPU allocation and resize if approved.",
+            "execution_status": "PENDING_APPROVAL",
+            "approval_required": true,
+            "execution_mode": "SIMULATION_ONLY"
+        },
+        {
+            "resource_name": "PROD-VM-101",
+            "issue": "Low storage utilization",
+            "resource_type": "STORAGE",
+            "automation_action": "REVIEW_STORAGE_ALLOCATION",
+            "description": "Review storage allocation and identify reclaimable capacity.",
+            "execution_status": "PENDING_APPROVAL",
+            "approval_required": true,
+            "execution_mode": "SIMULATION_ONLY"
+        },
+        {
+            "resource_name": "DEV-VM-103",
+            "issue": "Potential CPU overallocation",
+            "resource_type": "CPU",
+            "automation_action": "REVIEW_CPU_ALLOCATION",
+            "description": "Review VM CPU allocation and resize if approved.",
+            "execution_status": "PENDING_APPROVAL",
+            "approval_required": true,
+            "execution_mode": "SIMULATION_ONLY"
+        },
+        {
+            "resource_name": "DEV-VM-103",
+            "issue": "Potential memory overallocation",
+            "resource_type": "MEMORY",
+            "automation_action": "REVIEW_MEMORY_ALLOCATION",
+            "description": "Review memory allocation and resize if approved.",
+            "execution_status": "PENDING_APPROVAL",
+            "approval_required": true,
+            "execution_mode": "SIMULATION_ONLY"
+        },
+        {
+            "resource_name": "DEV-VM-103",
+            "issue": "Low storage utilization",
+            "resource_type": "STORAGE",
+            "automation_action": "REVIEW_STORAGE_ALLOCATION",
+            "description": "Review storage allocation and identify reclaimable capacity.",
+            "execution_status": "PENDING_APPROVAL",
+            "approval_required": true,
+            "execution_mode": "SIMULATION_ONLY"
+        },
+        {
+            "source": "vmwarning.log",
+            "issue": "cpu29:2097519)WARNING: NvmeDiscover: 1914: Failed to get valid NS for controller.",
+            "resource_type": "STORAGE",
+            "automation_action": "RUN_STORAGE_DIAGNOSTICS",
+            "description": "Collect storage device health, latency and path information.",
+            "execution_status": "PENDING_APPROVAL",
+            "approval_required": true,
+            "execution_mode": "SIMULATION_ONLY"
+        },
+        {
+            "source": "vmwarning.log",
+            "issue": "cpu18:2099567)WARNING: StorageDevice: High latency detected on device naa.6000...",
+            "resource_type": "STORAGE",
+            "automation_action": "RUN_STORAGE_DIAGNOSTICS",
+            "description": "Collect storage device health, latency and path information.",
+            "execution_status": "PENDING_APPROVAL",
+            "approval_required": true,
+            "execution_mode": "SIMULATION_ONLY"
+        },
+        {
+            "source": "vmwarning.log",
+            "issue": "cpu21:2099678)WARNING: VMFS: Datastore datastore1 approaching capacity threshold.",
+            "resource_type": "STORAGE",
+            "automation_action": "RUN_STORAGE_DIAGNOSTICS",
+            "description": "Collect storage device health, latency and path information.",
+            "execution_status": "PENDING_APPROVAL",
+            "approval_required": true,
+            "execution_mode": "SIMULATION_ONLY"
+        },
+        {
+            "source": "vmwarning.log",
+            "issue": "cpu14:2099789)WARNING: Network connectivity interruption detected on vmnic1.",
+            "resource_type": "NETWORK",
+            "automation_action": "RUN_NETWORK_DIAGNOSTICS",
+            "description": "Check network interface status and connectivity.",
+            "execution_status": "PENDING_APPROVAL",
+            "approval_required": true,
+            "execution_mode": "SIMULATION_ONLY"
+        }
+    ]
+}

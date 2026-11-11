@@ -1,0 +1,11 @@
+2023-05-31T18:18:12.733Z In(182) vmkernel: cpu34:2099452 opID=8e09fccb) NVMEDEV:4739 discovering namespaces...
+
+2023-05-31T18:18:13.120Z In(182) vmkernel: cpu12:2097519) Storage device scan completed successfully.
+
+2023-05-31T18:19:22.450Z In(182) vmkernel: cpu08:2098123) NMP: nmp_ThrottleLogForDevice: Cmd 0x28 to dev "naa.6000..." on path "vmhba0:C0:T0:L0" took 2500 msecs.
+
+2023-05-31T18:20:10.200Z In(182) vmkernel: cpu15:2098456) Storage device naa.6000... capacity detected.
+
+2023-05-31T18:21:45.500Z In(182) vmkernel: cpu20:2099123) VMFS: Volume datastore1 mounted successfully.
+
+2023-05-31T18:22:30.100Z In(182) vmkernel: cpu11:2099345) Network interface vmnic0 link state changed to Up.

@@ -1,0 +1,41 @@
+{
+    "agent": "FinOpsAgent",
+    "currency": "USD",
+    "analysis": {
+        "total_vms": 3,
+        "total_monthly_cost_usd": 420,
+        "estimated_monthly_savings_usd": 33.0,
+        "projected_monthly_cost_usd": 387.0,
+        "estimated_annual_savings_usd": 396.0,
+        "application_costs": {
+            "PaymentService": 180,
+            "CustomerPortal": 140,
+            "TestingService": 100
+        },
+        "vm_financial_analysis": [
+            {
+                "vm_name": "PROD-VM-101",
+                "application": "PaymentService",
+                "monthly_cost_usd": 180,
+                "optimization_candidates": 2,
+                "estimated_monthly_savings_usd": 18.0
+            },
+            {
+                "vm_name": "PROD-VM-102",
+                "application": "CustomerPortal",
+                "monthly_cost_usd": 140,
+                "optimization_candidates": 0,
+                "estimated_monthly_savings_usd": 0.0
+            },
+            {
+                "vm_name": "DEV-VM-103",
+                "application": "TestingService",
+                "monthly_cost_usd": 100,
+                "optimization_candidates": 3,
+                "estimated_monthly_savings_usd": 15.0
+            }
+        ]
+    },
+    "data_status": "SYNTHETIC_TEST_DATA",
+    "savings_status": "ESTIMATED_NOT_REALIZED"
+}

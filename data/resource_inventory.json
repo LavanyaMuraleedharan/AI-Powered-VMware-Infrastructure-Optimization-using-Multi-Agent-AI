@@ -1,0 +1,38 @@
+[
+  {
+    "vm_name": "PROD-VM-101",
+    "environment": "Production",
+    "application": "PaymentService",
+    "cpu_allocated": 8,
+    "cpu_usage_percent": 12,
+    "memory_allocated_gb": 32,
+    "memory_usage_percent": 25,
+    "storage_allocated_gb": 500,
+    "storage_used_gb": 120,
+    "monthly_cost_usd": 180
+  },
+  {
+    "vm_name": "PROD-VM-102",
+    "environment": "Production",
+    "application": "CustomerPortal",
+    "cpu_allocated": 4,
+    "cpu_usage_percent": 75,
+    "memory_allocated_gb": 16,
+    "memory_usage_percent": 80,
+    "storage_allocated_gb": 250,
+    "storage_used_gb": 220,
+    "monthly_cost_usd": 140
+  },
+  {
+    "vm_name": "DEV-VM-103",
+    "environment": "Development",
+    "application": "TestingService",
+    "cpu_allocated": 8,
+    "cpu_usage_percent": 5,
+    "memory_allocated_gb": 32,
+    "memory_usage_percent": 10,
+    "storage_allocated_gb": 400,
+    "storage_used_gb": 80,
+    "monthly_cost_usd": 100
+  }
+]
